@@ -8,8 +8,7 @@ Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Note
 # PyBer Analysis
    The purpose of this analysis is to identify key ride sharing metrics by type of city and create a graphical view of the total weekly fares based on the city types which will help improve access to ride sharing services and determine ride affordability for the city types. 
    ## Technical Analysis
-   A data frame was used to showcase key parameters which includes total rides, total drivers, total fares, average fare per ride and average fare per driver.The first step was to import the pandas library and matplot lib after which the two sets of data were uploaded, inspected for empty rows and merged.The total drivers and total fares for the city types were obtained using the groupby and sum functions while the total drivers was obtained using the groupby and count functions.
-   
+   A data frame was used to showcase key parameters which includes total rides, total drivers, total fares, average fare per ride and average fare per driver.The first step was to import the pandas library and matplot lib after which the two sets of data were uploaded, inspected for empty rows and merged.The total fare and total rides for the city types were obtained using the groupby and sum functions while the total drivers was obtained using the groupby and count functions,[Total Fare Code](), [Total Ride Code](),[Total Driver]().
    
    
    
