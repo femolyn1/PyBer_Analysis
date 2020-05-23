@@ -12,6 +12,7 @@ Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Note
   * Total fares
   * Average fare per ride
   * Average fare per  driver
+### Technical Analysis
  
   
 
