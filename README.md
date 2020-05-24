@@ -17,14 +17,14 @@ Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Note
   * Data frame's index was reset and used to create a pivot table
   * Pivot table was resampled using the resample and sum fucntions 
   * A five thrity eight style graph was plotted using the object oriented method 
-  #### Results
-   [Data Frame]()
+  ### Results
+   [Fig1]()
+   [Fig 2]()
+   As shown in fig 1 above, the rural cities has the highest average fare per driver and ride while the urban cities has the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities and allocating more rides and drivers to the rural cities will reduce the high average fares in those cities and make rides more affordable for people in those cities. As shown in the multiple line graph, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare and this 
    
-   As shown in the above table , the rural cities has the highest average fare per driver and ride while the urban cities has the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities and allocating more rides and drivers to the rural cities will reduce the high fares in those cities.
    
    
-   [Total Fare by City Type]()
-   
+ 
  
    
  
