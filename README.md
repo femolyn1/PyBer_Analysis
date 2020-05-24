@@ -1,6 +1,4 @@
  
-# Resources:
-Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Notebook
 
 # PyBer Analysis
 The purpose of this exploratory data analysis is to identify key ride sharing metrics by type of city and create a graphical representation of the total weekly fares based on the city types which will help improve access to ride sharing services and determine ride affordability.
@@ -37,7 +35,9 @@ In addition to the above analysis, I would recommend obtaining more information 
 ## Recommended Future Analysis
 With the demographic information such as  populutaion and age range, we can group the fares by age and city type or by population and city type. These information will shed more light on the reason why some of the city types had high average fare per driver and ride. Also, using the loc function on two to five previous year data might shed more light on the reason why thr rural and suburban cities had low fares within the month of January to April. 
 
- 
+# Resources:
+Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Notebook
+
  
    
  
