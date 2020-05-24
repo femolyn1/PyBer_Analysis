@@ -23,12 +23,12 @@ The purpose of this analysis is to identify key ride sharing metrics by type of 
   ### Results
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/New%20Data%20frame.PNG)
      
-   As shown in fig 1 above, the rural cities had the highest average fare per driver and ride while the urban cities had the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities. Allocating more rides and drivers to the rural cities will reduce the high average fares in those cities and make rides more affordable. 
+   As shown in the data frame above, the rural cities had the highest average fare per driver and ride while the urban cities had the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities. Allocating more rides and drivers to the rural cities will reduce the high average fares in those cities and make rides more affordable. 
    ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Multiple%20line%20graph.png)
    
-   As shown in the multiple line graph, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare. The data frame created using the loc function on the pivot data, shown below, helps to explain the reason for the low fares in the suburban and rural cities within the months of January to April 2019.
+   As shown in the multiple line graph above, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare. The data frame created using the loc function on the pivot data, shown below, helps to explain the reason for the low fares in the suburban and rural cities within the months of January to April 2019.
    
-   [Fig 3]()
+   []()
  
   As shown above,the rural cities had the most empty cells within the period under consideration followed by the suburban cities while the urban cities had the lowest empty cells.  We can infer from the multiline graph that allocating more rides to the urban cities within the months of  January to April will boost fare revenue and improve ride afordability in the urban cities within specified months.In summary, the drop in the number of ride usage in the rural cities within the months of January to April, 2019 could be due to the low number of available rides and drivers in those cities.Therefore, allocating more rides and drivers to the rural cities will reduce average fare per ride and avarage fare per driver which will invariably boost ride afordability. The Urban cities can also benefit from more ride allocation within the months of January to April as this will help meet the demands for rides, increase revenue and reduce affordability.
   
