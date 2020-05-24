@@ -10,15 +10,25 @@ The purpose of this analysis is to identify key ride sharing metrics by type of 
    ## Technical Analysis
   The [total drivers](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24L682-L684), [total rides](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24R656-R658) ,[total fares](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24L631-L632 ) and [average fare per ride](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24R707-R711) were obtained using the groupby function along with the sum , count and mean functions while the [average fare per driver](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24L733-L737 ) was obtained by dividing the total fares per city type by the total drivers per city type. To obtain the right data for plotting the graph, the following tasks was performed:
   * Columns of the main data was renamed using the rename column function
+ ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/column_remane.png)
   * Index was set to date time using the date time index function 
-  * A new dataframe was created with city type and fare colums using the copy function
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Set%20Index%20Function.png)
+  * A new dataframe was created with city type and fare columns using the copy function
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20copy%20function.png)
   * The index of the new data frame was checked using the info function
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Info%20function.png)
   * Groupby function was used used to group the fares by city and date and this was placed in a data frame using the dataframe function
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/groupby%20function%20for%20multiple%20columns.png)
   * Data frame's index was reset using the reset index funtion
-  * A pivot table was created using the pivot table function 
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Reset%20Function.png)
+  * A pivot table was created using the pivot table function
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Pivot%20Data%20frame%20function.png)
   * Loc function was used to reorganize the pivot table within a given date range
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20loc%20function%20for%20a%20given%20time%20range.png)
   * The pivot table was resampled using the resample and sum fucntions 
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20resampling%20and%20sum%20functions.png)
   * A multiple line graph was created using the Five Thirty Eight style and object oriented method
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20object%20oriented%20method%20and%20five%20thirty%20eight%20style.png)
   
   ### Results
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/New%20Data%20frame.PNG)
