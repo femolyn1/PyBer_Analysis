@@ -21,8 +21,8 @@ The purpose of this exploratory data analysis is to identify key ride sharing me
    As shown in the data frame above, the rural cities had the highest average fare per driver and ride while the urban cities had the lowest and the high fares observed in the rural cities was due to the low number of total rides and total drivers in those cities.
    ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Multiple%20line%20graph.png)
    
-   As shown in the multiple line graph above, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare and the low fares in the urban cities can be attributed to the empty cells observed in the rural cities column after arranging the data into the specified date range using the loc function. 
-    In summary, the drop in the number of ride usage in the rural cities within the months of January to April, 2019 could be due to the low number of available rides and drivers in those cities and allocating more rides & drivers to the rural cities will most likely reduce average fare per ride & driver which will invariably boost ride affordability. Although the available date is limited to 2019, the Urban cities might also benefit from more ride allocation within the months of January to April as this will help meet the demands for rides in those months , increase revenue and enhance affordability.
+   As shown in the multiple line graph above, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare and the low fares can be attributed to the empty cells observed in the rural cities column after arranging the data into the specified date range using the loc function. 
+    In summary, the drop in the number of ride usage in the rural cities within the months of January to April, 2019 could be due to the low number of available rides and drivers in those cities and allocating more rides & drivers to the rural cities will most likely reduce average fare per ride & driver which will invariably boost ride affordability. In addition, although the available data is limited to 2019, the Urban cities might also benefit from more ride allocation within the months of January to April as this will help meet the demands for rides in those months , increase revenue and enhance affordability.
   
 # Challenges Encountered during Analysis
 Formatting the horizontal axis in the multiline plot to resemble the graph provided in the challenge question was a bit difficult. Upon plotting the graph, the date format on the horizontal axis had the format 2019-01-01, and the challenge question asked us to show the months and day format ( Jan 2019, Feb, Mar , Apr). 
@@ -31,12 +31,11 @@ Formatting the horizontal axis in the multiline plot to resemble the graph provi
 To resolve this issue, I used the plt.xticks() funtion to view the numerical format of the dates and then added the dates into the function along with the calender month format. See a screen shot showing the code used to format the vertical axis below:
 ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/plt.xticks.png)
 
-
-
-
 # Recommendation(s)
 
-
+In addition to the above analysis, I would recommend obtaining more information about the demographics of those living the the three city types and additional two to five previous year city and ride data. 
+## Recommended Future Analysis
+With the demographic information such as  populutaion and age range, we can group the fares by age and city type or by population and city type. These information will shed more light on the reason why some of the city types had high average fare per driver and ride. Also, using the loc function on two to five previous year data might shed more light on the reason why thr rural and suburban cities had low fares within the month of January to April. 
 
  
  
