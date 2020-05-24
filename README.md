@@ -25,7 +25,7 @@ The purpose of this exploratory data analysis is to identify key ride sharing me
     In summary, the drop in the number of ride usage in the rural cities within the months of January to April, 2019 could be due to the low number of available rides and drivers in those cities and allocating more rides & drivers to the rural cities will most likely reduce average fare per ride & driver which will invariably boost ride affordability. Although the available date is limited to 2019, the Urban cities might also benefit from more ride allocation within the months of January to April as this will help meet the demands for rides in those months , increase revenue and enhance affordability.
   
 # Challenges Encountered during Analysis
-Formatting the horizontal axis in the multiline plot to resemble the graph provided in the challenge question was a bit difficult. Upon plotting the graph, the date format on the horizontal axis had the format 2019-01-01, and the challenge question us to show the months and day format ,Jan- Apri 2019. 
+Formatting the horizontal axis in the multiline plot to resemble the graph provided in the challenge question was a bit difficult. Upon plotting the graph, the date format on the horizontal axis had the format 2019-01-01, and the challenge question asked us to show the months and day format ( Jan 2019, Feb, Mar , Apr). 
 
 ## Resolution strategy
 To resolve this issue, I used the plt.xticks() funtion to view the numerical format of the dates and then added the dates into the function along with the calender month format. See a screen shot showing the code used to format the vertical axis below:
