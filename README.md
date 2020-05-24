@@ -49,7 +49,7 @@ Fomatting the horizontal axis in the multiline plot to resemble the graph provid
 To resolve this issue, I used the plot.xticks() funtion to view the numerical format of the dates and then added the dates into the function along with the calender month format. See a screen shot of the code below:
 
 
-# Recommendation
+# Recommendation(s)
 
 
 
