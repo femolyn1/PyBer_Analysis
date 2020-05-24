@@ -27,9 +27,9 @@ Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Note
    
    [Fig 3]()
  
-  As shown above,the rural cities had the most empty cells within the period under consideration followed by the suburban cities while the urban cities had the lowest empty cells.  We can infer from the multiline graph that allocating more rides to the urban cities within the months of  January to April will boost fare revenue and improve ride afordability in the urban cities within specified months.In summary, the drop in the number of ride usage in the rural cities within the months of January to April, 2019 could be due to the low number of available rides and drivers in those cities.So, allocating more rides and drivers to the rural cities will reduce average fare per ride and avarage fare per driver which will invariably boost ride afordability. The Urban cities can also benefit from more ride allocation within the months of January to April as this will help meet the demands for rides, increase revenue and reduce affordability.
+  As shown above,the rural cities had the most empty cells within the period under consideration followed by the suburban cities while the urban cities had the lowest empty cells.  We can infer from the multiline graph that allocating more rides to the urban cities within the months of  January to April will boost fare revenue and improve ride afordability in the urban cities within specified months.In summary, the drop in the number of ride usage in the rural cities within the months of January to April, 2019 could be due to the low number of available rides and drivers in those cities.Therefore, allocating more rides and drivers to the rural cities will reduce average fare per ride and avarage fare per driver which will invariably boost ride afordability. The Urban cities can also benefit from more ride allocation within the months of January to April as this will help meet the demands for rides, increase revenue and reduce affordability.
   
-# Observed Challenges during Analysis
+# Challenges during Analysis
 
  
  
