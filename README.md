@@ -29,7 +29,7 @@ Formatting the horizontal axis in the multiline plot to resemble the graph provi
 
 ## Resolution strategy
 To resolve this issue, I used the plt.xticks() funtion to view the numerical format of the dates and then added the dates into the function along with the calender month format. See a screen shot showing the code used to format the vertical axis below:
-![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20object%20oriented%20method%20and%20five%20thirty%20eight%20style.png)
+![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/plt.xticks.png)
 
 
 
