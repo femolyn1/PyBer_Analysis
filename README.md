@@ -20,8 +20,7 @@ The purpose of this analysis is to identify key ride sharing metrics by type of 
   * Groupby function was used used to group the fares by city and date and this was placed in a data frame using the dataframe function
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/groupby%20function%20for%20multiple%20columns.png)
   
-  * Data frame's index was reset using the reset index funtion
-  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Reset%20Function.png)
+  
   * A pivot table was created using the pivot table function
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Pivot%20Data%20frame%20function.png)
   * Loc function was used to reorganize the pivot table within a given date range
