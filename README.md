@@ -28,7 +28,7 @@ The purpose of this exploratory data analysis is to identify key ride sharing me
 Formatting the horizontal axis in the multiline plot to resemble the graph provided in the challenge question was a bit difficult. Upon plotting the graph, the date format on the horizontal axis had the format 2019-01-01, and the challenge question us to show the months and day format ,Jan- Apri 2019. 
 
 ## Resolution strategy
-To resolve this issue, I used the plot.xticks() funtion to view the numerical format of the dates and then added the dates into the function along with the calender month format. See a screen shot showing the code used to format the vertical axis and the entire multiline graph below:
+To resolve this issue, I used the plt.xticks() funtion to view the numerical format of the dates and then added the dates into the function along with the calender month format. See a screen shot showing the code used to format the vertical axis below:
 ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20object%20oriented%20method%20and%20five%20thirty%20eight%20style.png)
 
 
