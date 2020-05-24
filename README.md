@@ -23,7 +23,11 @@ Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Note
    
    [Fig 2]()
    
-   As shown in fig 1 above, the rural cities had the highest average fare per driver and ride while the urban cities had the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities. Allocating more rides and drivers to the rural cities will reduce the high average fares in those cities and make rides more affordable. As shown in the multiple line graph, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare and this 
+   As shown in fig 1 above, the rural cities had the highest average fare per driver and ride while the urban cities had the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities. Allocating more rides and drivers to the rural cities will reduce the high average fares in those cities and make rides more affordable. As shown in the multiple line graph, the urban cities had the highest total fare within the months of January to April 2019 followed by the rural cities while the urban cities had the lowest fare. The data frame created using the loc function on the pivot data, shown below, helps to explain the reason for the low fares in the suburban and rural cities within the months of January to April 2019.
+   
+   [Fig 3]()
+ 
+  As shown above,the rural cities had the most empty cells within the period under consideration followed by the suburban cities while the urban cities had the lowest empty cells.  We can infer from the multiline graph that allocating more rides to the urban cities within the months of  January to April will boost fare revenue and improve ride afordability in the urban cities within specified months.
    
    
    
