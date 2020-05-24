@@ -9,13 +9,17 @@ Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Note
 The purpose of this analysis is to identify key ride sharing metrics by type of city and create a graphical representation of the total weekly fares based on the city types which will help improve access to ride sharing services and determine ride affordability.
    ## Technical Analysis
   The [total drivers](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24L682-L684), [total rides](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24R656-R658) ,[total fares](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24L631-L632 ) and [average fare per ride](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24R707-R711) were obtained using the groupby function along with the sum , count and mean functions while the [average fare per driver](https://github.com/femolyn1/PyBer_Analysis/commit/11c28c26eec3a73c17ddb678bb1126ff32b5a6c8#diff-8ca64d95e3c20e73e5f0833a72afef24L733-L737 ) was obtained by dividing the total fares per city type by the total drivers per city type. To obtain the right data for plotting the graph, the following tasks was performed:
-  * Columns of the main data was renamed
-  * Index was reset using the datetime function
-  * Groupby function was used used to group the fares by city and date 
-  * The groupby function above was placed into a data frame in one step 
-  * Data frame's index was reset and used to create a pivot table
-  * Pivot table was resampled using the resample and sum fucntions 
-  * A five thirty eight style graph was plotted using the object oriented method 
+  * Columns of the main data was renamed using the rename column function
+  * Index was set to date time using the date time index function 
+  * A new dataframe was created with city type and fare colums using the copy function
+  * The index of the new data frame was checked using the info function
+  * Groupby function was used used to group the fares by city and date and this was placed in a data frame using the dataframe function
+  * Data frame's index was reset using the reset index funtion
+  * A pivot table was created using the pivot table function 
+  * Loc function was used to reorganize the pivot table within a given date range
+  * The pivot table was resampled using the resample and sum fucntions 
+  * A multiple line graph was created using the Five Thirty Eight style and object oriented method
+  
   ### Results
   
    [Fig1]()
