@@ -22,7 +22,6 @@ The purpose of this analysis is to identify key ride sharing metrics by type of 
   
   * Data frame's index was reset using the reset index funtion
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Reset%20Function.png)
-  
   * A pivot table was created using the pivot table function
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Pivot%20Data%20frame%20function.png)
   * Loc function was used to reorganize the pivot table within a given date range
