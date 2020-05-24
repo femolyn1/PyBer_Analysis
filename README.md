@@ -17,7 +17,7 @@ The purpose of this analysis is to identify key ride sharing metrics by type of 
   
   * A pivot table was created using the [pivot table function](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Pivot%20Data%20frame%20function.png)
   * [Loc function](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20loc%20function%20for%20a%20given%20time%20range.png) was used to organize the pivot table within the given date range
-  * The pivot table was resampled using the [resample and sum fucntions](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20resampling%20and%20sum%20functions.png)
+  * The pivot table was resampled using the [resample and sum functions](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20resampling%20and%20sum%20functions.png)
    
   ### Results
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/New%20Data%20frame.PNG)
