@@ -31,7 +31,7 @@ The purpose of this analysis is to identify key ride sharing metrics by type of 
   ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Using%20object%20oriented%20method%20and%20five%20thirty%20eight%20style.png)
   
   ### Results
-  !["DataFrame Showing Key Metrics"](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/New%20Data%20frame.PNG)
+  ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/New%20Data%20frame.PNG)
      
    As shown in the data frame above, the rural cities had the highest average fare per driver and ride while the urban cities had the lowest. The high fare per ride and driver observed in the rural cities is due to the low number of total rides and total drivers in those cities. Allocating more rides and drivers to the rural cities will reduce the high average fares in those cities and make rides more affordable. 
    ![](https://github.com/femolyn1/PyBer_Analysis/blob/master/Images/Multiple%20line%20graph.png)
