@@ -34,7 +34,7 @@ To resolve this issue, I used the plt.xticks() funtion to view the numerical for
 
 In addition to the above analysis, I would recommend obtaining more information about the demographics of those living the the three city types and additional two to five previous year city and ride data. 
 ## Recommended Future Analysis
-With the demographic information such as  populutaion and age range, we can group the fares by age and city type or by population and city type. These information will shed more light on the reason why some of the city types had high average fare per driver and ride. Also, using the loc function on two to five previous year data might shed more light on the reason why thr rural and suburban cities had low fares within the month of January to April. 
+With the demographic information such as  population and age range, we can group the fares by age and city type or by population and city type. These information will shed more light on the reason why some of the city types had high average fare per driver and ride. Also, using the loc function on two to five previous year data might better explain why the  rural and suburban cities had low fares within the month of January to April. 
 
 # Resources:
 Data Source: ride_data.csv & city_data.csv; Software: Python 3.7.6; Jupyter Notebook
